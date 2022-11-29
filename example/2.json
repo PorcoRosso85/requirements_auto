@@ -1,0 +1,21 @@
+{
+  "stock": [
+    {
+      "id": "ABC0001",
+      "item": "Cable",
+      "description": "USB-A Cable"
+    },
+    {
+      "id": "ABC0002",
+      "item": "Cable",
+      "description": "USB-B Cable"
+    },
+    {
+      "id": "ABC0003",
+      "item": "Cable",
+      "description": "USB-C Cable"
+    }
+  ],
+  "timestamp": "2021-03-06T14:55:45.680Z",
+  "author": "Rich Rose"
+}

@@ -1,0 +1,22 @@
+Person
+-name: String
+-birthDate: Date
+--
++getName(): String
++setName(String): void
++isBirthday(): boolean
+
+Address
+-street: String
+-city: String
+-state: String
+
+Room
+-room: String/CharField
+-slug: String/SlugField
+
+Message:
+-user: String
+-slug: String/ForeignKey
+-message: String/TextField
+-date: Date/DateTimeField

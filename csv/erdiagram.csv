@@ -1,0 +1,11 @@
+##
+#
+##
+#
+##
+table,field,type,
+room,user,str,
+room,slug,str,
+message,room,str,
+message,date,datatime,
+message,user,str,

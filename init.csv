@@ -1,0 +1,29 @@
+##
+# label: %what%
+# style: label;
+##
+# connect: {"label": "label","from": "from","to": "what"}
+##
+id,what,who,doc,test,from
+,visit app via https,user,bp,,,
+,show "/home",anony,requirements,ui,visit app via https,
+,select signup,user,requirements,ui,
+,select login,user,requirements,ui,
+,logout,user,requirements,ui,
+,check user is required authentication,dev,requirements,unit,
+,check not authed users cannot select room,dev,requirements,unit,
+,show signup form,anony,requirements,ui,
+,show login form,anony,requirements,ui,
+,send signup data to database,anony,requirements,unit,
+,send login data to database,anony,requirements,unit,
+,return "/home" as login user,anony,requirements,ui,
+,return room select page "/room",anony,requirements,ui,
+,return error not signup yet,anony,requirements,ui,
+,return error not required,anony,requirements,ui,
+,check sent data,anony,requirements,ui,
+,create new room,user,bp,unit,
+,select existed room,user,"bp,requirements",ui,
+,send what user talk,user,"bp,requirements",unit,
+,send talk data to channel,anony,requirements,unit,
+,channel connect with websocket and return it immediately,anony,requirements,unit,
+,
