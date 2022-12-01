@@ -1,0 +1,27 @@
+## https://github.com/jgraph/drawio/issues/504
+## name,parent,egress,ingress,shape
+# label: %type%<br>%name%
+# style: %shapes%
+# identity: name
+# parent: parent-application
+#
+# parentstyle: %shapes%
+#
+# connect: {"from":"egress", "to":"name", "style":"curved=1;endArrow=blockThin;endFill=1;"}
+# connect: {"from":"ingress", "to": "name", "invert": true, "style":"curved=1;"}
+#
+# namespace: csvimport-
+# width: auto
+# height: auto
+# padding: -12
+# ignore: shape,ingress,egress
+# nodespacing: 40
+# levelspacing: 100
+# edgespacing: 40
+# layout: verticaltree
+## ---- CSV below this line. First line are column names. ----
+name,parent-application,egress,ingress,type,shapes
+k8s-multi-tenant,,"","",k8s,"fontSize=22;strokeColor=#326ce5;imageBorder=#326ce5;image=https://kubernetes.io/images/favicon.png;style=label;html=1;imageAspect=1;whiteSpace=wrap;fillOpacity=30;container=1;dashed=1;strokeWidth=6;"
+istio-system,k8s-multi-tenant,"","",ns,"fontSize=17;strokeColor=#326ce5;imageBorder=#326ce5;style=label;html=1;imageAspect=1;whiteSpace=wrap;fillOpacity=30;container=1;dashed=1;strokeWidth=6;"
+istio-prodgateway,istio-system,"","",deploy,"shape=image;fontSize=11;image=https://raw.githubusercontent.com/kubernetes/community/master/icons/svg/resources/labeled/deploy.svg;style=label;html=1;imageAspect=1;aspect=fixed;"
+kube-system,k8s-multi-tenant,"","",ns,"fontSize=17;strokeColor=#326ce5;imageBorder=#326ce5;style=label;html=1;imageAspect=1;whiteSpace=wrap;fillOpacity=30;container=1;dashed=1;strokeWidth=6;"

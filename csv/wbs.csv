@@ -1,0 +1,38 @@
+# label: %no%<br>%name%
+# styles: {"notyet" : "fillColor=#DAE8FC;strokeColor=#D79B00;rounded=1;html=1;", "complete" : "fillColor=#fff2cc;strokeColor=#6C8EBF;rounded=1;html=1;"}
+# stylename: progress
+# namespace: csvimport-
+# connect: {"from": "parent", "to": "no","invert":true, "style": "edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;endArrow=none;fontSize=11;"}
+# width: auto
+# height: auto
+# padding: 5
+# ignore: parent
+# link: url
+# nodespacing: 60
+# levelspacing: 60
+# edgespacing: 40
+# layout: verticalflow
+## **********************************************************
+## CSV Data
+## **********************************************************
+no,name,progress,parent
+1,忘年会,notyet,
+2,企画,complete,1
+3,準備,notyet,1
+4,実行,notyet,1
+5,フォロー,notyet,1
+2.1,内容企画,complete,2
+2.2,出席者候補,complete,2
+3.1,日程調整,notyet,3
+3.2,会場予約,notyet,3
+3.3,事前出欠,notyet,3
+3.4,連絡,notyet,3
+3.4.1,開催連絡,complete,3.4
+3.4.2,リマインド,notyet,3.4
+4.1,当日出欠,notyet,4
+4.2,会計,notyet,4
+4.3,挨拶,notyet,4
+4.4,2次会計画,notyet,4
+4.3.1,乾杯,notyet,4.3
+4.3.2,締め,notyet,4.3
+5.1,お礼,notyet,5

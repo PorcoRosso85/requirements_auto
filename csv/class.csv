@@ -1,0 +1,36 @@
+## https://groups.google.com/g/drawio/c/zPV8HjyxJxA
+## Reverse Engineer UML using CSV import
+#
+# identity: id
+# namespace: csvimport-
+#
+## Label types
+# labelname: labeltype
+# labels: {\
+# "classlabel" : "%name%<br><i style=\u0022color:gray;\u0022>%super%</i>",\
+# "pubattlabel" : "+ %name%"}
+#
+## Shapes and their styles
+# stylename: type
+# styles: {\
+# "class": "swimlane;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;collapsible=1;marginBottom=0;rounded=1;fontSize=15;fillColor=#80FF00;labelBackgroundColor=#80FF00;labelBorderColor=none;startSize=50;html=1;",\
+# "attribute": "text;"}
+#
+# parentstyle:shape=swimlane;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;collapsible=1;marginBottom=0;rounded=1;fontSize=15;fillColor=#80FF00;labelBackgroundColor=#80FF00;labelBorderColor=none;startSize=50;html=1;
+# parent: Parent
+# width: @wid
+# height: @ht
+# padding: 5
+# nodespacing: 20
+# levelspacing: 30
+# edgespacing: 40
+# ignore: labeltype,wid,ht
+#
+## **********************************************************
+## CSV Data
+## **********************************************************
+## ---- CSV below this line. First line are column names. ----
+id,type,name,labeltype,super,Parent,wid,ht
+1,class,Pipeline,classlabel,mySuper,,200,300
+2,attribute,att1,pubattlabel,,1,80,40
+3,attribute,att2,pubattlabel,,1,80,30

@@ -1,0 +1,16 @@
+## https://groups.google.com/g/drawio/c/pDGf3gv5X8w/m/TiNg-oMZBQAJ
+## Automatic grid layout isn't supported, but you can use top and left and expand=0 in the parent style to place the child objects and stop parent resizing:
+# identity: ID
+# parent: Parent
+# parentstyle:shape=rect;expand=0;
+# top: top
+# left: left
+# width:@width
+# height: @height
+# ignore: Parent,top,left,width,height
+ID,Name,Parent,top,left,width,height,shape
+Parent,Parent,,0,0,40,40,rect
+Chlld1,Chlld1,Parent,0,0,100,100,rect
+Chlld2,Chlld2,Parent,100,0,100,100,rect
+Chlld3,Chlld3,Parent,0,100,100,100,rect
+Chlld4,Chlld4,Parent,100,100,100,100,rect

@@ -1,0 +1,30 @@
+what,id,who,ifo,ifx,doc,test,style,label,width,height
+user,user,,,,"bp,requirements",,area,what,40,40
+app,app,,,,"bp,requirements",,area,what,40,40
+ユーザーがアプリに訪れる,visitapp,user,viewhome,,"bp,requirements",,,what,40,40
+ホーム画面が表示される,viewhome,app,"selectsignup, selectlogin",,requirements,ui,,what,40,40
+サインアップボタンを押す,selectsignup,user,signupform,,requirements,ui,,what,40,40
+ユーザーがアプリに訪れる,visitapp,user,viewhome,,"bp,requirements",,,what,40,40
+ホーム画面が表示される,viewhome,app,"selectsignup, selectlogin",,requirements,ui,,what,40,40
+サインアップボタンを押す,selectsignup,user,signupform,,requirements,ui,,what,40,40
+サインアップフォームが表示される,signupform,app,signupdata,,requirements,ui,,what,40,40
+サインアップデータを入力する,signupdata,user,checksignup,,"bp,requirements",unit,,what,40,40
+サインアップデータが要件を満たしているか確認する,checksignup,user,signupdatabase,errorsignup,requirements,unit,,what,40,40
+サインアップデータが要件を満たしていないエラーを返す,errorsignup,user,signupform,,requirements,unit,,what,40,40
+サインアップデータをデータベースへ送信する,signupdatabase,app,viewhomeauthed,,requirements,unit,,what,40,40
+ログインボタンを押す,selectlogin,user,loginform,,requirements,ui,,what,40,40
+ログインフォームが表示される,loginform,app,logindata,,requirements,ui,,what,40,40
+ログインデータを入力する,logindata,user,logindatabase,,"bp,requirements",unit,,what,40,40
+ログインデータをデータベースへ送信する,logindatabase,app,checkauthed,,requirements,unit,,what,40,40
+ログインデータが既にあるか確認し返す,checkauthed,app,viewroom,"notsignup, loginform",requirements,unit,,what,40,40
+ログアウトボタンを押す,logout,user,,,requirements,ui,,what,40,40
+ユーザーがログインされているかどうかを確認する,checkauthed,dev,,,requirements,unit,,what,40,40
+ログインしたユーザーのみがRoomを見ることができるかを確認する,checkroom,dev,,,requirements,unit,,what,40,40
+ログインした状態のホーム画面を表示する,viewhomeauthed,app,,,requirements,ui,,what,40,40
+Room一覧を表示する,viewroom,app,selectroom,,requirements,ui,,what,40,40
+Roomを選択する,selectroom,user,viewslug,,"bp,requirements",ui,,what,40,40
+まだサインアップされていないエラーを表示する,notsignup,app,talk,,requirements,ui,,what,40,40
+まだログインされていないエラーを表示する,notauthed,app,,,requirements,ui,,what,40,40
+Room内を表示する,viewslug,app,,,requirements,ui,,what,40,40
+Roomを新しく作成する,createroom,user,,,bp,unit,,what,40,40
+トークする,talk,user,,,"bp,requirements",unit,,what,40,40

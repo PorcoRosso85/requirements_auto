@@ -1,0 +1,7 @@
+what,id,who,ifo,ifx,doc,test,top,left,style,label,width,height
+user,user,,,,"bp,requirements",,,,area,what,40,40
+app,app,app,,,"bp,requirements",,,,area,what,40,40
+ログインした状態のホーム画面を表示する,viewhomeauthed,app,,,requirements,ui,,what,40,40
+Room一覧を表示する,viewroom,app,selectroom,,requirements,ui,,what,40,40
+Roomを選択する,selectroom,user,viewslug,,"bp,requirements",ui,,what,40,40
+まだサインアップされていないエラーを表示する,notsignup,app,talk,,requirements,ui,,what,40,40

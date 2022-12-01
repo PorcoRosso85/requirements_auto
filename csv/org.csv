@@ -80,6 +80,20 @@
 ## to replace placeholders in the additional label with data from the source or target.
 ## The target column may contain a comma-separated list of values.
 ## Multiple connect entries are allowed.
+## 行間の接続 (「from」: ソース列、「to」: ターゲット列)。
+## ラベル、スタイル、反転はオプションです。デフォルトは ''、現在のスタイル、および false です。
+## スタイルでプレースホルダーが使用されている場合、それらはソースからのデータに置き換えられます。
+## オプションのプレースホルダーをターゲットに設定して、代わりにターゲットからのデータを使用できます。
+## label に加えて、オプションの fromlabel と tolabel を使用して列に名前を付けることができます
+## エッジのソースまたはターゲットのラベルのテキストを含む (反転は無視されます)。
+## これらに加えて、オプションの source および targetlabel を使用して、ソース行またはターゲット行のそれぞれの列を参照するプレースホルダーを含むラベルを指定できます。
+## ラベルは fromlabel + sourcelabel + label + tolabel + targetlabel の形式で作成されます。
+## {"label": string, "x": number, "y": number, "dx": number, "dy": number} という形式のエントリを持つオプションの labels 配列を使用して、追加のラベルを追加できます。
+## x はエッジに沿って -1 から 1、y は直交、dx/dy はピクセル単位のオフセットです。
+## 文字列値「source」または「target」を持つオプションのプレースホルダーを指定できます
+## 追加ラベルのプレースホルダーをソースまたはターゲットからのデータに置き換えます。
+## ターゲット列には、コンマ区切りの値のリストが含まれる場合があります。
+## 複数の接続エントリが許可されます。
 #
 # connect: {"from": "manager", "to": "name", "invert": true, "label": "manages", \
 #          "style": "curved=1;endArrow=blockThin;endFill=1;fontSize=11;"}
