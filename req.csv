@@ -1,0 +1,15 @@
+## https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&layers=1&nav=1&title=requirements_auto.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ywZa-pEhBzgQUbbVdOY_qUa15162QyiA%26export%3Ddownload
+name,id,ifo,ifx,style
+csvを作成する,createcsv,"designcsvfromcreate,diagramfromcsv,docfromcsv",,
+図が出力される,diagramfromcsv,,,
+notionにドキュメントを出力できる(notionにかぎらない),docfromcsv,,,
+サーバーでcsvから出力データをデザインできる,designcsvfromcreate,updatedatabase,,
+好みのデータベースをアップデートできる,updatedatabase,"querygitcommentfromdatabase,analogyfossfromcsv,analogycommentfromcsv",,
+デザインされたデータからgitコメントを固定できる,querygitcommentfromdatabase,designcsvfromgitlog,,
+固定されたgitlogからcsvに合わせたデータをデザインできる,designcsvfromgitlog,updatedatabase,,
+csvから参考となるプロジェクトを類推することができる,analogyfossfromcsv,filesfromanalogy,,
+csvからコメントを組成することができる,analogycommentfromcsv,addcomment,,
+類推されたFOSSから、ファイル構成を取得できる,filesfromanalogy,getstructure,,
+選択されたファイル構成からファイルを組成できる,getstructure,addcomment,,
+コメントをファイル内に追加することができる,addcomment,analogycodesfromcomment,,
+追加されたコメントからコードを類推することができる,analogycodesfromcomment,,,

@@ -18,8 +18,8 @@
 # height: @height
 # ignore: top,left,width,height
 ##
-# connect: {"label": "o","from": "ifo","to": "id","invert": false}
-# connect: {"label": "x","from": "ifx","to": "id","invert": false}
+# connect: {"label": "o","from": "ifo", "to": "id", "invert": false, "style": "curved=1;"}
+# connect: {"label": "x","from": "ifx", "to": "id", "invert": false, "style": "curved=1;"}
 # layout: auto
 ##
 # padding: 20
