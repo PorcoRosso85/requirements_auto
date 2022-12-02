@@ -1,4 +1,3 @@
-## https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&layers=1&nav=1&title=requirements_auto.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1ywZa-pEhBzgQUbbVdOY_qUa15162QyiA%26export%3Ddownload
 name,id,ifo,ifx,style
 csvを作成する,createcsv,"designcsvfromcreate,diagramfromcsv,docfromcsv",,
 図が出力される,diagramfromcsv,,,
